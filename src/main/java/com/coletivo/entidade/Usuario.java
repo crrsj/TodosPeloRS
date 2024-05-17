@@ -34,8 +34,7 @@ public class Usuario implements Serializable {
 	private String nome;
 	@JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "dd-MM-yyyy")
 	private Date dataNasc;	
-	private String cpf;
-	@Email
+	private String cpf;	
 	private String email;
 	private String senha;
 	private String telefone;
